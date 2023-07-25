@@ -2,16 +2,74 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="./css/output.css" />
-      <title>TEST</title>
+      <link rel="stylesheet" href="../src/anotherCss.css" />
+      <title>ODIN FORM TAILWIND</title>
    </head>
-   <body class="flex">
-      <div class="text-blue-700">SADASDSsADasdasd</div>
-      <div class="text-blue-700">SADASDSADasdasd</div>
-      <div class="text-blue-700">SADASDSAD</div>
-      <div class="text-blue-700">SADASDSAD</div>
-      <div class="text-blue-700">SADASDSAD</div>
-      <div class="text-blue-700">SADASDSAD</div>
+   <body>
+      <main class="flex">
+         <section class="sect1 customFont w-2/5 h-screen bg-background-Img bg-no-repeat bg-cover">
+            <div class="logoContainer flex items-center justify-center mt-32 p-4 bg-custom-transparent">
+               <img class="logo w-20 h-auto block" src="./assets/odin-logo-lined.png" alt="Odin Logo" />
+               <div class="textLogo text-white text-5xl">ODIN</div>
+            </div>
+         </section>
+         <section class="sect2 w-3/5 w">
+            <div class="container2">
+               <div class="text">
+                  <h2>
+                     This is not real online services! You know you need something like this in your life to help you
+                     realize your deepest dream. Sign up now to get started. <br />
+                     <br />
+                     You know you want to.
+                  </h2>
+               </div>
+               <div class="formControl">
+                  <form action="">
+                     <div class="inputContainer">
+                        <p class="accent">Let's do this!</p>
+                        <div class="form-row">
+                           <div class="div-row">
+                              <label for="firstName">FIRST NAME</label>
+                              <input type="text" id="firstName" name="firstName" required />
+                           </div>
+                           <div class="div-row">
+                              <label for="lastName">LAST NAME</label>
+                              <input type="text" id="lastName" name="lastName" required />
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="div-row">
+                              <label for="email">EMAIL</label>
+                              <input type="email" id="email" name="email" required placeholder="email@provider.com" />
+                           </div>
+                           <div class="div-row">
+                              <label for="phone">PHONE NUMBER</label>
+                              <input type="tel" id="phone" name="phone" required />
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="div-row">
+                              <label for="pass">PASSWORD <span id="message"></span></label>
+                              <input type="password" id="pass" name="pass" required />
+                           </div>
+                           <div class="div-row">
+                              <label for="cpass">CONFIRM PASSWORD</label>
+                              <input type="password" id="cpass" name="cpass" required />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="bottomInputContainer">
+                        <button type="submit" class="myButton">Create Account</button>
+                        <p>Already have an account? <a href="assd">Log in</a></p>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </main>
    </body>
 </html>

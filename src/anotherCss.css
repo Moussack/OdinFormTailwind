@@ -1,0 +1,10 @@
+/* THIS ANOTHER CSS FILE IS FOR ADDING CUSTOM LOCAL FONT, as for RIGHT NOW 25 July 2023 TAILWIND HAVE A PROBLEM TO DISPLAY ANY local file ie. background img, fonst, etc.. */
+
+@font-face {
+   font-family: 'asd';
+   src: url('./Norse-Bold.otf');
+}
+
+.customFont {
+   font-family: 'asd', sans-serif;
+}

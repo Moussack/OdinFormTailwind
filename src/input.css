@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgImage {
+   background-image: url('https://images.unsplash.com/photo-1624542316074-5ce16f7b6d41?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+}
+
+.bgTransp {
+   background-color: rgba(5, 0, 0, 0.5);
+}
