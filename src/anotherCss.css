@@ -1,4 +1,6 @@
-/* THIS ANOTHER CSS FILE IS FOR ADDING CUSTOM LOCAL FONT, as for RIGHT NOW 25 July 2023 TAILWIND HAVE A PROBLEM TO DISPLAY ANY local file ie. background img, fonst, etc.. */
+/* THIS ANOTHER CSS FILE IS FOR ADDING CUSTOM LOCAL FONT, as for RIGHT NOW 25 July 2023 TAILWIND HAVE A PROBLEM importing ANY LOCAL FILES ie. background img, fonst, etc.. 
+https://github.com/tailwindlabs/tailwindcss/discussions/3113
+*/
 
 @font-face {
    font-family: 'asd';
