@@ -9,3 +9,10 @@
 .bgTransp {
    background-color: rgba(5, 0, 0, 0.5);
 }
+
+.inputStyle {
+   @apply block focus:outline-none focus:shadow-md text-gray-700 w-48 px-2 py-1 border rounded border-blue-400 box-border;
+}
+.labelStyle {
+   @apply font-semibold block mb-1;
+}

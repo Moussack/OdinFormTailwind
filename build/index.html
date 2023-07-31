@@ -34,44 +34,39 @@
                         <p class="accent pb-3 font-bold text-blue-500 text-base">Let's do this!</p>
                         <div class="form-row flex mb-2 gap-12 text-xs">
                            <div class="div-row">
-                              <label class="font-semibold block mb-1" for="firstName">FIRST NAME</label>
+                              <label class="labelStyle" for="firstName">FIRST NAME</label>
+                              <input class="inputStyle" type="text" id="firstName" name="firstName" required />
+                           </div>
+                           <div class="div-row">
+                              <label class="labelStyle" for="lastName">LAST NAME</label>
+                              <input class="inputStyle" type="text" id="lastName" name="lastName" required />
+                           </div>
+                        </div>
+                        <div class="form-row flex mb-2 gap-12 text-xs">
+                           <div class="div-row">
+                              <label class="labelStyle" for="email">EMAIL</label>
                               <input
-                                 class="block focus:outline-none focus:shadow-md text-gray-700 w-48 px-2 py-1 border rounded border-blue-400 box-border"
-                                 type="text"
-                                 id="firstName"
-                                 name="firstName"
+                                 class="inputStyle"
+                                 type="email"
+                                 id="email"
+                                 name="email"
                                  required
+                                 placeholder="email@provider.com"
                               />
                            </div>
                            <div class="div-row">
-                              <label class="font-semibold block mb-1" for="lastName">LAST NAME</label>
-                              <input
-                                 class="block focus:outline-none focus:shadow-md text-gray-700 w-48 px-2 py-1 border rounded border-blue-400 box-border"
-                                 type="text"
-                                 id="lastName"
-                                 name="lastName"
-                                 required
-                              />
+                              <label class="labelStyle" for="phone">PHONE NUMBER</label>
+                              <input class="inputStyle" type="tel" id="phone" name="phone" required />
                            </div>
                         </div>
-                        <div class="form-row">
+                        <div class="form-row flex mb-2 gap-12 text-xs">
                            <div class="div-row">
-                              <label for="email">EMAIL</label>
-                              <input type="email" id="email" name="email" required placeholder="email@provider.com" />
+                              <label class="labelStyle" for="pass">PASSWORD <span id="message"></span></label>
+                              <input class="inputStyle" type="password" id="pass" name="pass" required />
                            </div>
                            <div class="div-row">
-                              <label for="phone">PHONE NUMBER</label>
-                              <input type="tel" id="phone" name="phone" required />
-                           </div>
-                        </div>
-                        <div class="form-row">
-                           <div class="div-row">
-                              <label for="pass">PASSWORD <span id="message"></span></label>
-                              <input type="password" id="pass" name="pass" required />
-                           </div>
-                           <div class="div-row">
-                              <label for="cpass">CONFIRM PASSWORD</label>
-                              <input type="password" id="cpass" name="cpass" required />
+                              <label class="labelStyle" for="cpass">CONFIRM PASSWORD</label>
+                              <input class="inputStyle" type="password" id="cpass" name="cpass" required />
                            </div>
                         </div>
                      </div>
